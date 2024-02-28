@@ -1,0 +1,53 @@
+body{
+ /* background-color: gray;  */
+}
+.App{
+  /* border: .5px  solid gray; */
+  margin: 100px 30%;
+  padding: 50px;
+  text-align: center;
+  border-radius: 25px;
+  box-shadow: 0 4px 16px rgb(33 37 41 / 33%);
+}
+.App h1{
+  color: #222;
+}
+ul{
+  list-style: "❤️";
+  cursor: pointer;
+  color: #333;
+  font-size: 20px;
+}
+.App input{
+  width: 200px;
+  height: 40px;
+  border: none;
+  background-color: #e8e8e8;
+  border-radius: 10px;
+  margin: 20px;
+}
+::placeholder
+{
+  color: #333;
+}
+.App button{
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 30px;
+    background-color: #003aff;
+    color: #fff;
+    BORDER: NONE;
+    border-radius: 3PX;
+}
+.App ul li{
+  word-wrap: break-word;
+}
+.diffstyle {
+list-style: "✔️";
+}
+.div10 {
+  display: flex;
+  justify-content: space-between;
+  align-items:center ;
+}

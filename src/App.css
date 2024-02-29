@@ -18,6 +18,13 @@ ul{
   color: #333;
   font-size: 20px;
 }
+.App ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 1rem;
+} 
 .App input{
   width: 200px;
   height: 40px;
@@ -50,4 +57,20 @@ list-style: "✔️";
   display: flex;
   justify-content: space-between;
   align-items:center ;
+}
+@media (max-width: 640px) {
+  .App{
+    margin: 100px auto;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgb(33 37 41 / 33%);
+  }
+  .App input{
+    width: 100px;
+    height: 30px;
+  
+  } 
+  
 }
